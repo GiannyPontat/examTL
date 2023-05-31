@@ -7,8 +7,8 @@ app = FastAPI()
 
 client = MongoClient(connect)
 Musiques = client[db]
-titres = Musiques[collection]
-magasins_collection = Musiques[collection2]
+titres = Musiques[collectionTitres]
+magasins_collection = Musiques[collectionMagasins]
 
 # Peupler la collection "musiques" avec des données initiales
 musiques = [

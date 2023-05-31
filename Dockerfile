@@ -16,4 +16,4 @@ RUN pip install -r requirements.txt
 RUN python seeder.py
 
 # Commande d'exécution de l'application
-CMD ["uvicorn", "api:app", "--host", "0.0.0.0", "--port", "8000"]
+CMD ["uvicorn", "api:app", "--host", "0.0.0.0", "--port", "4850"]
